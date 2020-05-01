@@ -1,5 +1,7 @@
 # Review of Modern Control Theory
 
+[toc]
+
 ## Chapter 1. State Variable Models
 
 1. 状态空间模型表示为
@@ -76,11 +78,11 @@ $\Delta_k$为1-对应的前向通路不相交的loop。
      \end{array} \right) +Bw
      \end{align}
      $$
-     If it's controllable，we can use ackerman formula to get K martix,then w(t)=-K$A\left( \begin{array}{c}
+     If it's controllable，we can use ackerman formula to get K martix,then w(t)=-K$\left( \begin{array}{c}
      	e\\
      	\overset{\cdot}{e}\\
      	z\\
-     \end{array} \right) $,then we can get u(t).
+     \end{array} \right) $,then we can get u(t).(这里类似于$\dot{x} = Ax+Bu$,通过控制器设计得到$w(t)$,最后通过积分得到$u(t)$)
 
 ## ==Chapter 3.Digital Control Systems==
 
