@@ -114,6 +114,7 @@ $\Delta_k$为1-对应的前向通路不相交的loop。
 ##  Chapter 4.非线性控制系统分析
 
 - 基本的几种非线性类型
+- 非线性系统的结构框图中的$s,\frac{1}{s}$代表微分积分算子，而不需要考虑逆拉普拉斯变换。
 - 相平面法`只适用于二阶系统`
   - 令$\overset{\cdot}x,\overset{\cdot\cdot}x=0$,得到的解$(x_e,0)$为奇点.奇点处的切线斜率不定(故相轨线相交于奇点)
   - $\alpha=\frac{f(\overset{\cdot}x,x)}{\overset{\cdot}x}$,同时还有$\frac{d\overset{\cdot}x}{dx}=\frac{f(\overset{\cdot}x,x)}{\overset{\cdot}x}$,其中$\alpha$为曲线在该点的方向向量. `存在特解情况,方向向量和斜率相同`
